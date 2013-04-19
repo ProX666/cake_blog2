@@ -1,0 +1,128 @@
+2013-04-19 11:02:32 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /cake_blog/posts
+Stack Trace:
+#0 C:\xampp\htdocs\cake_blog\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-19 11:03:32 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /cake_blog/posts
+Stack Trace:
+#0 C:\xampp\htdocs\cake_blog\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-19 11:03:47 Error: [MissingControllerException] Controller class PostController could not be found.
+Exception Attributes: array (
+  'class' => 'PostController',
+  'plugin' => NULL,
+)
+Request URL: /cake_blog/post
+Stack Trace:
+#0 C:\xampp\htdocs\cake_blog\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-19 11:05:56 Error: [MissingControllerException] Controller class PostController could not be found.
+Exception Attributes: array (
+  'class' => 'PostController',
+  'plugin' => NULL,
+)
+Request URL: /cake_blog/post
+Stack Trace:
+#0 C:\xampp\htdocs\cake_blog\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-19 11:39:05 Error: Fatal Error (1): Call to a member function css() on a non-object in [C:\xampp\htdocs\cake_blog\View\Layouts\default.ctp, line 4]
+2013-04-19 11:39:05 Error: [FatalErrorException] Call to a member function css() on a non-object
+Request URL: /cake_blog/posts/edit/1
+Stack Trace:
+#0 C:\xampp\htdocs\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 4)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 4, Array)
+#2 C:\xampp\htdocs\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 4, Array)
+#3 C:\xampp\htdocs\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-04-19 11:42:53 Error: [MissingViewException] View file "C:\xampp\htdocs\cake_blog\View\Posts\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\xampp\\htdocs\\cake_blog\\View\\Posts\\index.ctp',
+)
+Request URL: /cake_blog/posts/
+Stack Trace:
+#0 C:\xampp\htdocs\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\Cake\Controller\Controller.php(948): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 C:\xampp\htdocs\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\cake_blog\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-04-19 11:53:41 Error: Fatal Error (1): Call to a member function css() on a non-object in [C:\xampp\htdocs\cake_blog\View\Posts\index.ctp, line 4]
+2013-04-19 11:53:41 Error: [FatalErrorException] Call to a member function css() on a non-object
+Request URL: /cake_blog/posts
+Stack Trace:
+#0 C:\xampp\htdocs\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 4)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 4, Array)
+#2 C:\xampp\htdocs\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 4, Array)
+#3 C:\xampp\htdocs\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-04-19 11:54:26 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake_blog/css/styles.css
+Stack Trace:
+#0 C:\xampp\htdocs\cake_blog\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-19 13:19:58 Error: [MissingViewException] View file "C:\xampp\htdocs\cake_blog\View\Posts\add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\xampp\\htdocs\\cake_blog\\View\\Posts\\add.ctp',
+)
+Request URL: /cake_blog/posts/add
+Stack Trace:
+#0 C:\xampp\htdocs\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\Cake\Controller\Controller.php(948): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 C:\xampp\htdocs\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\cake_blog\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-04-19 14:08:23 Error: Fatal Error (1): Call to a member function setFlash() on a non-object in [C:\xampp\htdocs\cake_blog\Controller\PostsController.php, line 46]
+2013-04-19 14:08:23 Error: [FatalErrorException] Call to a member function setFlash() on a non-object
+Request URL: /cake_blog/posts/add
+Stack Trace:
+#0 C:\xampp\htdocs\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 46)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 46, Array)
+#2 C:\xampp\htdocs\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 46, Array)
+#3 C:\xampp\htdocs\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-04-19 14:10:23 Error: Fatal Error (64): Cannot redeclare AppController::$components in [C:\xampp\htdocs\cake_blog\Controller\AppController.php, line 36]
+2013-04-19 14:10:23 Error: [FatalErrorException] Cannot redeclare AppController::$components
+Request URL: /cake_blog/posts/add
+Stack Trace:
+#0 C:\xampp\htdocs\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\xampp\htdocs...', 36)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\xampp\htdocs...', 36, Array)
+#2 C:\xampp\htdocs\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\xampp\htdocs...', 36, Array)
+#3 C:\xampp\htdocs\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-04-19 14:10:34 Error: Fatal Error (64): Cannot redeclare AppController::$components in [C:\xampp\htdocs\cake_blog\Controller\AppController.php, line 36]
+2013-04-19 14:10:34 Error: [FatalErrorException] Cannot redeclare AppController::$components
+Request URL: /cake_blog/posts/add
+Stack Trace:
+#0 C:\xampp\htdocs\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\xampp\htdocs...', 36)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\xampp\htdocs...', 36, Array)
+#2 C:\xampp\htdocs\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\xampp\htdocs...', 36, Array)
+#3 C:\xampp\htdocs\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-04-19 14:20:07 Error: [NotFoundException] Invalid post
+Request URL: /cake_blog/posts/view
+Stack Trace:
+#0 [internal function]: PostsController->view()
+#1 C:\xampp\htdocs\Cake\Controller\Controller.php(486): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 C:\xampp\htdocs\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\cake_blog\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
